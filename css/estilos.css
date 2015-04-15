@@ -68,8 +68,8 @@ body{
 
 #logo {
 	position:absolute;
-	height:56%; 
-	top:17%; 
+	height:45%; 
+	top:20%; 
 	left:50%;
 }
 .plecas {
@@ -172,7 +172,7 @@ body{
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	font-size: 6em;
+	font-size: 3em;
 	color: #0099cc;
 }
 .tes_chico {
@@ -180,7 +180,7 @@ body{
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1em;
 	color: #006699;
 }
 .tes_chico2 {
@@ -188,7 +188,7 @@ body{
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	font-size: 2.6em;
+	font-size: 1.2em;
 	color: #007bb6;
 }
 
@@ -242,7 +242,7 @@ body{
 	text-align: center;
 	background:none;
 	border:none;
-	font-size: 2.5em;
+	font-size: 1.2em;
 	color:#073c78;
 	font-family:helvetica;
 	width:64%;
@@ -263,7 +263,7 @@ body{
 	text-align: center;
 	background:none;
 	border:none;
-	font-size: 2.5em;
+	font-size: 1.2em;
 	color:#073c78;
 	font-family:helvetica;
 	width:64%;
@@ -341,7 +341,7 @@ body{
 	text-align: center;
 	background:none;
 	border:none;
-	font-size: 3em;
+	font-size: 1.2em;
 	color:#073c78;
 	font-family:helvetica;
 	width:95%;
@@ -494,35 +494,43 @@ body{
 }
 #botones_menu1{
 	background:url(../imagenes/menu_icono1.png) no-repeat;
-	background-position:center 
+	background-position:center;
+	background-size:auto 30%
 }
 #botones_menu2{
 	background:url(../imagenes/menu_icono2.png) no-repeat;
-	background-position:center 
+	background-position:center;
+	background-size:auto 35%
 }
 #botones_menu3{
 	background:url(../imagenes/menu_icono3.png) no-repeat;
-	background-position:center 
+	background-position:center;
+	background-size:auto 35%
 }
 #botones_menu4{
 	background:url(../imagenes/menu_icono4.png) no-repeat;
-	background-position:center 
+	background-position:center;
+	background-size:auto 35%
 }
 #botones_menu5{
 	background:url(../imagenes/menu_icono5.png) no-repeat;
-	background-position:center 
+	background-position:center ;
+	background-size:auto 35%
 }
 #botones_menu6{
 	background:url(../imagenes/menu_icono6.png) no-repeat;
-	background-position:center 
+	background-position:center ;
+	background-size:auto 35%
 }
 #botones_menu7{
 	background:url(../imagenes/menu_icono7.png) no-repeat;
 	background-position:center;
+	background-size:auto 30%
 }
 #botones_menu8{
 	background:url(../imagenes/menu_icono8.png) no-repeat;
-	background-position:center 
+	background-position:center;
+	background-size:auto 35%
 }
 
 .titulo_horarios2{
@@ -582,7 +590,8 @@ body{
 	left:90%;
 	position:absolute;
 	background:url(../imagenes/flechita2.png) no-repeat;
-	background-position:center
+	background-position:center;
+	background-size:auto 25%;
 }
 
 .day{
@@ -641,10 +650,11 @@ body{
 .horario_conferencia_flecha{ 
 	background:url(../imagenes/flechita2.png) no-repeat;
 	background-position:98% 45%;
+	background-size:auto 25px;
 }
 
-.horario_temas{font-size:34px; color:#ff0099; padding:20px; padding-left:30%; padding-right:8%}
-.horario_todo{font-size:30px; color:#333; padding:20px; padding-left:30%; padding-right:8%}
+.horario_temas{font-size:17px; color:#ff0099; padding:20px; padding-left:30%; padding-right:8%}
+.horario_todo{font-size:16px; color:#333; padding:20px; padding-left:30%; padding-right:8%}
 
 .campos_login{width:78%; height:42%; left:19%; position:absolute; margin-left:2px; border:none; background:none}
 .clearing{
@@ -711,26 +721,34 @@ body{
 	background-color:#FFFFFF
 }
 
+#tema1, #tema2, #tema3, #tema4, #tema5, #tema6, #tema7, #tema8, #tema9, #tema10, #tema11, #tema12, #tema13 {
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	background-color:#FFFFFF
+}
+
 
 .redonda {
- width: 150px;
- height: 150px;
+ width: 60px;
+ height: 60px;
  border-radius: 100px;
 -moz-border-radius: 100px;
 -webkit-border-radius: 100px;
 -khtml-border-radius: 100px;
  overflow: hidden;
  position:absolute;
- border: 10px solid #FFFFFF;
+ border: 5px solid #FFFFFF;
  background-size:100% 100%;
 }
 #agrandar{
-	-ms-transform: scale(2); /* IE 9 */
-    -webkit-transform: scale(2); /* Safari */
-    transform: scale(2);
+	-ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari */
+    transform: scale(1.2);
 	position:absolute;
-	top:650px;
-	left:47%
+	top:150px;
+	left:38%
 }
 
 /*.tes{
